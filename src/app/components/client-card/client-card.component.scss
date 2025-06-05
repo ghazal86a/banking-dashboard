@@ -1,0 +1,39 @@
+$badge-font-size: 0.6rem;
+.card {
+  transition: transform 0.2s ease-in-out;
+  border-radius: 0.5rem;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.5em 0.8em;
+  transition: all 0.2s ease-in-out;
+}
+
+  .modal {
+    display: none;
+    &.show {
+      display: block;
+    }
+  }
+
+  .modal-backdrop {
+    display: none;
+    &.show {
+      display: block;
+    }
+  }
+
+  .number-badge {
+    font-size: $badge-font-size;
+    border-radius: 50%;
+    width: 1.2rem; 
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
